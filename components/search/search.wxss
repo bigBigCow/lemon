@@ -1,0 +1,15 @@
+/* components/search/search.wxss */
+.searchOut{
+  width: 100%;
+  background-color: #eb4450;
+  height: 90rpx;
+  padding-top: 15rpx;
+  z-index: 999;
+}
+.searchs{
+  width: 100%;
+  background-color: #fff;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+}

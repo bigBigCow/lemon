@@ -1,0 +1,53 @@
+
+.swipers{
+  height: 340rpx;
+}
+.swiperImg{
+  width: 100%;
+  height: auto;
+}
+/* 分类导航 */
+.navbar{
+  width: 100%;
+  display: flex;
+  margin-top: 20rpx;
+}
+.navbar navigator{
+  flex: 1;
+}
+.navbar navigator image{
+  width: 100%;
+}
+/* 楼层导航 */
+.floor{
+  margin-top: 20rpx;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.floor .floorCategory{
+  overflow: hidden;
+}
+.floor .floorTitle{
+  width: 100%;
+  height: 60rpx;
+  margin-top: 20rpx;
+}
+.floor .floorItem{
+  width: 33.33%;
+  float: left;
+}
+.floor .floorItem:nth-of-type(1){
+  /* height: calc(33.33vw * 386 /  232 ); */
+}
+.floor .floorItem:nth-of-type(n+2){
+  height: calc(33.33vw * 386 /  232 /2);
+  border-left: 10rpx solid #fff;
+}
+.floor .floorItem:nth-of-type(2),
+.floor .floorItem:nth-of-type(3){
+  border-bottom: 10rpx solid #fff;
+}
+.floor .floorItem image{
+  width: 100%;
+  height: 100%;
+}

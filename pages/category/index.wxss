@@ -1,0 +1,46 @@
+/* pages/category/index.wxss */
+page,.container,.categoryAll{
+  height: 100%;
+}
+.categoryAll{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: -90rpx;
+  padding-top: 90rpx;
+}
+.categoryAll .categoryLeft{
+  flex:1;
+}
+.categoryAll .categoryLeft .categoryLeftItem{
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.categoryLeft , .categoryRight{
+  height: 100%;
+  /* box-sizing: border-box; */
+}
+.categoryAll .categoryRight{
+  flex: 3;
+  /* overflow: hidden; */
+}
+.categoryAll .categoryRight text{
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.categoryAll .categoryRight .picItem{
+  width: 100%;
+}
+.categoryAll .categoryRight .picItem navigator{
+  display: inline-block;
+  width: 33.33%;
+  padding: 0 20rpx;
+  margin-top: 10rpx;
+}
+.categoryAll .categoryRight .picItem image{
+  width: 100%;
+  height: auto;
+}

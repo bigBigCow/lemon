@@ -1,0 +1,12 @@
+<!--pages/cart/index.wxml-->
+<view>
+  <button wx:if="{{!addressInfo.userName}}" bindtap="getAddress">添加收货地址</button>
+  <view class="address" wx:if="{{addressInfo.userName}}">
+    <view class="userName">
+      <text>收货人：{{addressInfo.userName}}</text>
+      <text>{{addressInfo.telNumber}}</text>
+    </view>
+    <text>{{addressInfo.cityName+addressInfo.countyName+addressInfo.detailInfo}}</text>
+  </view>
+  <view class="cart">购物车</view>
+</view>

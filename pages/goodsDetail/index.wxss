@@ -1,0 +1,60 @@
+/* pages/goodsDetail/index.wxss */
+page{
+  padding-bottom: 100rpx;
+}
+swiper{
+  /* width: 750rpx; */
+  height: 450rpx;
+  text-align: center;
+}
+.swiperPic{
+  width: 60%;
+}
+.goodsPrice{
+  color: var(--themeColor);
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.goodTitle{
+  display: flex;
+  padding: 10rpx 20rpx;
+  border: 1px solid #bbb;
+}
+.goodsName{
+  flex: 5;
+  padding-right: 20rpx;
+  /* margin-top: 20rpx; */
+}
+.collect{
+  flex: 1;
+  border-left: 1px solid #bbb;
+}
+.collect text{
+  display: block;
+  text-align: center;
+}
+.introduce{
+  color: var(--themeColor);
+  line-height: 60rpx;
+  margin-left: 20rpx;
+}
+.buy{
+  padding: 0 20rpx;
+  position: fixed;
+  bottom: 20rpx;
+  width: 100%;
+}
+.buy text{
+  position: absolute;
+  background-color: var(--themeColor);
+  bottom: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 5rpx;
+}
+.buy text:first-of-type{
+  left: 20rpx;
+}
+.buy text:last-of-type{
+  right: 20rpx;
+}

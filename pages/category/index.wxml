@@ -1,0 +1,24 @@
+<!--pages/category/index.wxml-->
+<view class="container">
+  <search></search>
+  <view class="categoryAll">
+    <scroll-view class="categoryLeft" scroll-y>
+      <view wx:for="{{categoryArray}}" wx:key="cat_id" class="categoryLeftItem" bindtap="menuClick" data-menuIndex="{{index}}">
+        {{item.cat_name}}
+      </view>
+    </scroll-view>
+    <scroll-view class="categoryRight" scroll-y scroll-top="{{istop}}">
+      <!-- <view wx:for="{{categoryRightArr.children}}" wx:for-item="item1" wx:for-index="index1" wx:key="cat_id"> -->
+        <view wx:for="{{categoryRightArr.children}}" wx:for-item="item1" wx:for-index="index1" wx:key="cat_id">
+          <text>/{{item1.cat_name}}/</text>
+          <view class="picItem">
+            <navigator wx:for="{{item1.children}}" wx:for-item="item2" wx:for-index="index2" wx:key="cat_id" url="{{'../goodsinfo/index?cid='+item2.cat_id}}">
+              <image mode="widthFix" src="{{item2.cat_icon}}"></image>
+              <text>{{item2.cat_name}}</text>
+            </navigator>
+          </view>
+        </view>
+      <!-- </view> -->
+    </scroll-view>
+  </view>
+</view>

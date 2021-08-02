@@ -1,0 +1,11 @@
+<view>
+  <view class="search">
+    <input type="text" bindinput="searchGo"/>
+    <text>搜索</text>
+  </view>
+  <view>
+    <navigator  wx:for="{{searchArr}}" wx:key="goods_id" url="{{'../goodsDetail/index?goodsId='+item.goods_id}}">
+      <text class="searchResult">{{item.goods_name}}</text>
+    </navigator>
+  </view>
+</view>

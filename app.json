@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/mine/index",
+    "pages/goodsinfo/index",
+    "pages/goodsDetail/index",
+    "pages/goodsSearch/index"
+  ],
+  "window":{
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "lemon",
+    "navigationBarTextStyle":"black"
+    
+  },
+  "tabBar":{
+    "list":[
+      {
+        "text":"首页",
+        "pagePath":"pages/index/index",
+        "iconPath":"icons/home.png",
+        "selectedIconPath": "icons/home-o.png"
+      },
+      {
+        "text":"分类",
+        "pagePath":"pages/category/index",
+        "iconPath":"icons/category.png",
+        "selectedIconPath": "icons/category-o.png"
+      },{
+        "text":"购物车",
+        "pagePath":"pages/cart/index",
+        "iconPath":"icons/cart.png",
+        "selectedIconPath": "icons/cart-o.png"
+      },
+      {
+        "text":"我的",
+        "pagePath":"pages/mine/index",
+        "iconPath":"icons/my.png",
+        "selectedIconPath": "icons/my-o.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

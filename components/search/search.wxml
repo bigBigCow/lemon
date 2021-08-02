@@ -1,0 +1,4 @@
+<!--components/search/search.wxml-->
+<view class="searchOut">
+  <navigator class="searchs" url="../../pages/goodsSearch/index">搜索</navigator>
+</view>

@@ -1,0 +1,16 @@
+/* pages/cart/index.wxss */
+.address{
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+.userName{
+  display: flex;
+  justify-content: space-between;
+}
+.cart{
+  padding: 0 20rpx;
+  border-top: 1px solid var(--themeColor);
+  border-bottom: 1px solid var(--themeColor);
+  font-size: 50rpx;
+  margin-top: 20rpx;
+}
